@@ -1,0 +1,8 @@
+main:
+  - identifier: blog
+    name: Blog
+    weight: 4
+    params:
+      icon:
+        vendor: fas
+        name: blog

@@ -1,0 +1,3 @@
+[submodule "themes/theme-cards"]
+	path = themes/theme-cards
+	url = https://github.com/hbstack/theme-cards.git

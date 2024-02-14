@@ -1,0 +1,4 @@
+name = 'eOne'
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '주경야근'
