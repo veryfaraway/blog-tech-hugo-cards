@@ -81,25 +81,26 @@ hb:
         - blog
         - news
     giscus:
-      repo: hbstack/theme-cards
-      repo_id: R_kgDOK1LmSQ
-      category_id: DIC_kwDOK1LmSc4CbdiM
+      repo: veryfaraway/blog-tech-hugo-cards
+      repo_id: R_kgDOK9_VcA
+      category_id: DIC_kwDOK9_VcM4CdPk6
   docs:
     giscus:
-      repo: hbstack/theme-cards
-      repo_id: R_kgDOK1LmSQ
-      category_id: DIC_kwDOK1LmSc4CbdiM
+      repo: veryfaraway/blog-tech-hugo-cards
+      repo_id: R_kgDOK9_VcA
+      category_id: DIC_kwDOK9_VcM4CdPk6
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme-cards
+      repo: veryfaraway/blog-tech-hugo-cards
       branch: main
       subpath: exampleSite
   # gallery:
   #   thumbnail_size: "x640"
-  # google_fonts:
-    # families:
+  google_fonts:
+    families:
       # - name: Lato
+      - name: Noto Sans Korean
 
 seo:
   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
