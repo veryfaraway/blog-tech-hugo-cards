@@ -73,4 +73,8 @@ module:
   - path: github.com/hugomods/icons/vendors/bootstrap
   - path: github.com/hugomods/icons/vendors/font-awesome
   - path: github.com/hugomods/icons/vendors/simple-icons
-  
+
+sitemap:
+  changeFreq: ""
+  filename: sitemap.xml
+  priority: -1
