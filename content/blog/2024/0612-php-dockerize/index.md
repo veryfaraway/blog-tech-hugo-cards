@@ -1,6 +1,7 @@
 ---
 title: "PHP 컨테이너화(Dockerize)하는 방법"
 date: 2024-06-12T20:27:21+09:00
+slug: php-dockerize
 draft: false
 description: "PHP 7.4 + CodeIgniter 4 컨테이너화하는 벙법을 설명합니다."
 noindex: false

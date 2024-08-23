@@ -1,5 +1,6 @@
 ---
 title: "IntelliJ IDEA에서 Java 프로젝트 설정하기"
+slug: intellij-java-new-project
 date: 2024-08-22T19:11:28+09:00
 draft: false
 description: "IntelliJ IDEA에서 새로운 Java 프로젝트를 생성하고 샘플 코드 실행하는 방법을 설명합니다."
@@ -156,4 +157,7 @@ MyFirstJavaProject/
 
 --- 
 
-이 블로그 글을 통해 IntelliJ IDEA에서 Java 프로젝트의 디렉토리 구조를 어떻게 설정하고 관리할 수 있는지 이해하셨기를 바랍니다. 디렉토리를 올바르게 설정하면 프로젝트가 더욱 체계적으로 관리되며, 개발 속도와 품질이 향상될 것입니다.
+이 블로그 글을 통해 IntelliJ IDEA에서 Java 프로젝트의 디렉토리 구조를 어떻게 설정하고 관리할 수 있는지 도움을 받으셨기를 바랍니다. IntelliJ 기본 빌드 시스템과 Gradle과 차이점이 궁금하시면 [Intellij IDEA Java Build System 비교](/blog/2024/236/intellij-java-build-system-comparison/)를 참조하시기 바랍니다.
+
+
+
