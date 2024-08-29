@@ -7,7 +7,8 @@ NODE_VERSION = "19"
 HUGO_VERSION = "0.133.1"
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "production"
-GO_VERSION = "1.20"
+GO_VERSION = "1.23"
+DART_SASS_VERSION = "1.77.8"
 
 [[headers]]
   for = "/*"
