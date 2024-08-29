@@ -13,8 +13,7 @@ series:
 categories:
   - JAVA
 tags:
-  - IntelliJ
-  - Gradle
+#  - 
 images:
   - https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3
 # menu:
