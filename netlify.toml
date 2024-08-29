@@ -35,3 +35,6 @@ DART_SASS_VERSION = "1.77.8"
   to = "/404.html"
   # to = "/en/404.html" # use this instead if defaultContentLanguageInSubdir is enabled.
   status = 404
+
+[[plugins]]
+  package = "netlify-plugin-dartsass"  
