@@ -26,17 +26,17 @@ images:
 #         color: '#e24d0e'
 ---
 
-macOS에서 여러 버전의 JDK를 설치하고 관리하는 것은 Java 개발자들에게 중요한 작업입니다. 이를 효율적으로 수행하기 위해 **SDKMAN!**이라는 툴을 사용하는 것을 추천합니다. SDKMAN!은 여러 버전의 JDK뿐만 아니라 다양한 SDK(Software Development Kit)를 쉽게 관리할 수 있는 명령줄 기반의 도구입니다.
+macOS에서 여러 버전의 JDK를 설치하고 관리하는 것은 Java 개발자들에게 중요한 작업입니다. 이를 효율적으로 수행하기 위해 **SDKMAN!**이라는 툴을 사용하는 것을 추천합니다. SDKMAN!은 여러 버전의 JDK뿐만 아니라 다양한 SDK(Software Development Kit)를 쉽게 관리할 수 있는 명령줄(CLI) 기반의 도구입니다.
 
 이 블로그 글에서는 SDKMAN!을 설치하고, 이를 사용해 여러 버전의 JDK를 관리하는 방법을 안내하겠습니다.
 
-#### 1. SDKMAN! 소개
+## 1. SDKMAN! 소개
 
-![](https://sdkman.io/assets/img/sdk-man-small-pattern.svg)
+![LOGO](https://sdkman.io/assets/img/sdk-man-small-pattern.svg)
 
 SDKMAN!은 macOS뿐만 아니라 Linux와 Windows에서도 사용할 수 있는 멀티플랫폼 SDK 관리 도구입니다. 이를 사용하면 여러 버전의 JDK를 쉽게 설치하고, 필요한 버전을 빠르게 전환할 수 있습니다. 
 
-#### 2. SDKMAN! 설치
+## 2. SDKMAN! 설치
 
 먼저, 터미널을 열고 SDKMAN!을 설치합니다. 다음 명령어를 실행하면 SDKMAN!이 설치됩니다:
 
@@ -58,7 +58,7 @@ sdk version
 
 이 명령어를 실행하면 SDKMAN!의 버전 정보가 표시됩니다.
 
-#### 3. 여러 버전의 JDK 설치
+## 3. 여러 버전의 JDK 설치
 
 SDKMAN!을 사용하면 여러 버전의 JDK를 쉽게 설치할 수 있습니다. 예를 들어, Java 8, Java 11, Java 17을 설치하려면 다음과 같이 명령어를 입력합니다:
 
@@ -76,7 +76,7 @@ sdk list java
 
 이 명령어를 통해 사용할 수 있는 모든 JDK 버전과 디스트리뷰션 목록을 확인할 수 있습니다.
 
-#### 4. JDK 버전 전환
+## 4. JDK 버전 전환
 
 설치된 JDK 버전 간에 전환하려면 `sdk use` 명령어를 사용합니다. 예를 들어, Java 11을 사용하려면 다음과 같이 입력합니다:
 
@@ -94,7 +94,7 @@ sdk default java 17.0.8-tem
 
 이 명령어를 실행하면 모든 새로운 터미널 세션에서 기본적으로 Java 17이 사용됩니다.
 
-#### 5. 설치된 JDK 버전 관리
+## 5. 설치된 JDK 버전 관리
 
 설치된 JDK 버전을 확인하거나 관리하려면 다음 명령어를 사용합니다:
 
@@ -114,9 +114,13 @@ sdk default java 17.0.8-tem
   sdk uninstall java 11.0.20-tem
   ```
 
-#### 6. 결론
+## 6. 결론
 
 SDKMAN!은 macOS에서 여러 버전의 JDK를 손쉽게 설치하고 관리할 수 있는 매우 유용한 도구입니다. SDKMAN!을 통해 필요한 JDK 버전을 빠르게 설치하고 전환함으로써 다양한 Java 프로젝트를 효율적으로 관리할 수 있습니다.
 
 이제 SDKMAN!을 설치하고 JDK 버전을 관리하는 방법을 익혔으니, 더 많은 Java SDK와 툴을 탐색해보세요. 이 도구는 Java 개발자뿐만 아니라, 다양한 개발 환경에서 유용하게 활용될 수 있습니다.
 
+
+<h2> 관련글 </h2>
+
+- [SDKMAN 사용방법]({{< ref "/blog/2024/0830-sdkman-usage" >}} "SDKMAN 사용방법")
