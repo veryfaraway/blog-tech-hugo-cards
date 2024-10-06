@@ -2,7 +2,7 @@
 title: "SDKMAN 사용방법"
 slug: sdkman-usage
 date: 2024-08-30T16:58:55+09:00
-draft: true
+draft: false
 description: "SDKMAN 공식문서에 기록된 사용방법(한글번역)"
 noindex: false
 featured: false
