@@ -104,4 +104,4 @@ Java 8에서 Java 17로 업그레이드하는 것은 다양한 이점을 제공�
 
 <h2> 관련글 </h2>
 
-- [1] [Java Record 클래스]({{< ref "/blog/2023/1008-java-class-record" >}} "Java Record 클래스")
+[1] [Java Record 클래스]({{< ref "/blog/2023/1008-java-class-record" >}} "Java Record 클래스")
