@@ -29,7 +29,7 @@ images:
 ---
 
 ## 개요
-안녕하세요! 오늘은 Java의 Try-with-Resources 구문에 대해 자세히 알아보겠습니다. 이 기능은 Java 7에서 도입되어 try 블록 안에 선원된 자원에 대해서 자원의 자동 닫힘을 지원해서 자원 관리를 훨씬 더 쉽고 안전하게 만들어 주었습니다.
+안녕하세요! 오늘은 Java의 Try-with-Resources 구문에 대해 자세히 알아보겠습니다. 이 기능은 Java 7에서 도입되어 try 블록 안에 선언된 자원에 대해서 자원의 자동 닫힘을 지원해서 자원 관리를 훨씬 더 쉽고 안전하게 만들어 주었습니다.
 
 ### 1. try-with-resources 사용하기
 자원 자동 닫힘 기능을 사용하려면, 간단하게, try 안에서 자원을 생성하면 됩니다.
@@ -104,7 +104,7 @@ public class MyResource implements AutoCloseable {
 
 ### 5. 자원이 닫히는 순서
 
-먼저 정의/획득된 리소스가 마지막에 닫힙니다. 이 동작의 예를 살펴봅시다:
+먼저 정의/획득된 리소스가 마지막에 닫힙니다. 이런 동작은 아래의 예제로 확인할 수 있습니다.
 
 **Resource 1:**
 ```java 
@@ -187,7 +187,7 @@ try (Scanner scanner = new Scanner(new File("testRead.txt"));
     // 생략
 }
 ```
-위에 표시된 것처럼 다수의 리소스를 선언할 때 특히 장황합니다. Java 9 및 JEP 213부터는 이제 try-with-resources 블록 내에서 final 변수 혹은 effectively final 변수를 사용할 수 있습니다:
+위에 표시된 것처럼 다수의 리소스를 선언하는 부분에서 특히 장황합니다. Java 9 및 JEP 213부터는 이제 try-with-resources 블록 내에서 final 변수 혹은 effectively final 변수를 사용할 수 있습니다:
 
 ```java
 final Scanner scanner = new Scanner(new File("testRead.txt"));
