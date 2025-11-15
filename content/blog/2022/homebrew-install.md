@@ -41,7 +41,7 @@ xcode-select --install
 Homebrew 설치는 간단합니다. 터미널에 아래의 명령을 붙여 넣어주세요.
 
 ```shell
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 설치가 잘 되었는지 확인하려면 아래와 같이 brew 명령을 입력했을때 오류없이 잘 출력이 되면 됩니다.
